@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:background="@mipmap/hmf_flashscreen"
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/phone"
+            android:maxLength="10"
+            android:hint="Enter Phone Number"
+            android:layout_margin="10dp"
+            android:inputType="phone"
+            android:background="@drawable/recycle"
+            android:padding="5dp"
+            android:textSize="16sp"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/idtype"
+            android:prompt="@string/prompt_email"
+            android:layout_margin="10dp"
+            android:background="@drawable/recycle"
+            android:padding="5dp"
+            android:textSize="16sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/idnumber"
+            android:hint="Enter id Proof Number"
+            android:layout_margin="10dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/recycle"
+            android:padding="5dp"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:id="@+id/details_submit"
+            android:textAllCaps="false"
+            android:text="Next"
+            android:background="@drawable/btn_next"
+            android:layout_margin="16dp"/>
+    </LinearLayout>
+</ScrollView>

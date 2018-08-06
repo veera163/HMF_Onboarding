@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:\kiranvalluri-esurvey_android-54adf3023a88\SurveyApp.iml" filepath="F:\kiranvalluri-esurvey_android-54adf3023a88\SurveyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\kiranvalluri-esurvey_android-54adf3023a88\esurvey_android.iml" filepath="F:\kiranvalluri-esurvey_android-54adf3023a88\esurvey_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kiranvalluri-esurvey_android.iml" filepath="$PROJECT_DIR$/kiranvalluri-esurvey_android.iml" />
+    </modules>
+  </component>
+</project>

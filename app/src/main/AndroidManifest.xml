@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hmf.com.project.onboarding">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <application
+        android:name="hmf.com.project.onboarding.ESurvey"
+        android:allowBackup="true"
+        android:icon="@mipmap/hmf_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name="hmf.com.project.onboarding.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hmf.com.project.onboarding.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="hmf.com.project.onboarding.question.SurveyActivity"
+            android:label="@string/title_activity_survey_actvitiy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="hmf.com.project.onboarding.details.PersonDetailsActivity"
+            android:label="@string/title_activity_person_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name="hmf.com.project.onboarding.FarmerDetails"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="hmf.com.project.onboarding.question.QuestionReviewActivity"
+            android:label="@string/title_activity_question_review"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="hmf.com.project.onboarding.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <service android:name="hmf.com.project.onboarding.services.PostLocationServices"/>
+        <activity
+            android:name="hmf.com.project.onboarding.question.SurveyAllActivity"
+            android:label="@string/title_activity_survey_all"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="hmf.com.project.onboarding.survey.TakeSurveyActivity"
+            android:label="@string/title_activity_take_survey"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+            <activity android:name="hmf.com.project.onboarding.MainActivity"/>
+        <activity android:name="hmf.com.project.onboarding.MapsActivity"/>
+        <activity android:name="hmf.com.project.onboarding.ScreenshotAndCamera"/>
+        <activity
+            android:name="hmf.com.project.onboarding.permission.PermissionsActivity"
+            android:label="@string/app_name" />
+        <activity android:name="hmf.com.project.onboarding.camera.CameraActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <service android:name="hmf.com.project.onboarding.services.SyncAllSurveyServices"/>
+    </application>
+
+
+</manifest>

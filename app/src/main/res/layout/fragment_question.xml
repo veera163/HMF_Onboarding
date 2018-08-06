@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".survey.QuestionFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_play"
+        android:layout_below="@+id/txt_count"
+        android:divider="@color/divider"
+        android:dividerHeight="2dp" />
+
+</FrameLayout>

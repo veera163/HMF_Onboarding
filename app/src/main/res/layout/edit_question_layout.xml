@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_bottom">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Questions?"
+        android:id="@+id/tvQuestion"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textSize="@dimen/questionTextSize"
+        android:textColor="@color/blue_grey_500"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgAnswer"
+        android:layout_below="@+id/edt_answer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option A"
+            style="@style/OptionTextViewStyle"
+            android:id="@+id/rdOptionA"
+            android:layout_below="@+id/tvQuestion"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option B"
+            style="@style/OptionTextViewStyle"
+            android:id="@+id/rdOptionB"
+            android:layout_below="@+id/rdOptionA"
+            android:layout_alignParentLeft="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option C"
+            style="@style/OptionTextViewStyle"
+            android:id="@+id/rdOptionC"
+            android:layout_below="@+id/rdOptionB"
+            android:layout_alignParentLeft="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option D"
+            style="@style/OptionTextViewStyle"
+            android:id="@+id/rdOptionD"
+            android:layout_below="@+id/rdOptionC"
+            android:layout_alignParentLeft="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option E"
+            style="@style/OptionTextViewStyle"
+            android:id="@+id/rdOptionE"
+            android:layout_below="@+id/rdOptionD"
+            android:layout_alignParentLeft="true"
+            />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/btn_minwidth"
+        android:inputType="textPersonName"
+        android:text=""
+
+        android:ems="10"
+        android:id="@+id/edt_answer"
+        android:layout_below="@+id/tvQuestion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

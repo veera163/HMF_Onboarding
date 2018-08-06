@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ESurvey</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Enter your Phone Number</string>
+    <string name="prompt_password">Enter your Password</string>
+    <string name="action_sign_in">Sign</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This Phone Number is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_survey_actvitiy">SurveyActvitiy</string>
+    <string name="next">Next</string>
+    <string name="pause">Pause</string>
+    <string name="title_activity_person_details">PersonDetailsActivity</string>
+    <string name="person_name">Persons Name</string>
+    <string name="person_age">Age</string>
+    <string name="person_Caste">Caste/Criteria</string>
+    <string name="Reset">Reset</string>
+    <string name="Done">Done</string>
+    <string name="submit">Submit </string>
+    <string name="submit_survey">Submit Survey </string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_question_review">QuestionReviewActivity</string>
+    <string name="play">Play</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_back">Start Survey</string>
+    <string name="description_biometric">Question will be loaded from server.
+        Requires a internet connection , hence make sure you are connected.</string>
+    <string name="municipality_name">Municipality/Corporation Name</string>
+    <string name="ward_num">Division/Ward No.</string>
+    <string name="ward_name">Division/Ward Name</string>
+    <string name="religion">Religion</string>
+    <string name="subcaste">Sub-Caste</string>
+    <string name="profession">Profession</string>
+    <string name="place">Native Place</string>
+    <string name="relative_name">Father/Husband/Wife Name</string>
+    <string name="num_of_children">No. of Children</string>
+    <string name="title_activity_survey_all">SurveyAllActivity</string>
+    <string name="description_all_in_one">మీరు ఒక సమయంలో అన్ని ప్రశ్న చూడవచ్చు. మీరు ప్రతి ప్రశ్నకు సమాధానం ఇవ్వాలని అవసరం. ప్రశ్న అందువలన మీరు ఇంటర్నెట్ తో కనెక్ట్ నిర్ధారించుకోండి సర్వర్ నుండి లోడ్ అవుతుంది.</string>
+    <string name="sync_data">దయచేసి మీరు ఇంటర్నెట్కు కనెక్ట్ నిర్ధారించుకోండి. server.Wi - Fi కనెక్షన్ అన్ని సర్వేలు సమకాలీకరిస్తుంది మద్దతిస్తుంది.\n  </string>
+    <string name="title_activity_take_survey">TakeSurveyActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Mark">Mark</string>
+    <string name="no_survey_to_sync">No Survey is pending to Sync</string>
+    <string name="no_intenet_to_sync">Can\'t sync.Please connect to Internet.</string>
+    <string name="alert">Alert</string>
+    <string name="cancel">CANCEL</string>
+    <string name="gps_setting">GPS Setting</string>
+    <string name="gps_prompt">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="setting">Setting</string>
+    <string name="survey_to_sync">Survey to sync</string>
+    <string name="last_quest_prompt">Please answer the last question.</string>
+    <string name="media_prompt">"This will start the Recording. You need to read the questions. "</string>
+    <string name="agree">Agree</string>
+    <string name="no_survey_offline">Sorry!! It seems that there are no Surveys stored offline.Please connected to internet and fetch surveys from the server.</string>
+    <string name="photo_prompt">Are you sure you want to submit the survey to server ? Would you like to add_photo the photo  of the pollster.</string>
+    <string name="gotit">Got it.</string>
+    <string name="server_error">Sorry . It seems something is wrong in server.  Please try again later.</string>
+    <string name="close">CLOSE</string>
+    <string name="uploaded_successfully">Uploaded Successfully</string>
+    <string name="ok">OK</string>
+    <string name="server_not_reachable">Server can\'t be reached . Please check your internet connection. Please try again later.</string>
+    <string name="capture_photo_prompt">Photo captured . Please submit the survey.</string>
+</resources>

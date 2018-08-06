@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:gravity="center_vertical"
+        android:text="Your Questions?"
+        android:textColor="@color/blue_grey_500"
+        android:textSize="@dimen/questionTextSize" />
+
+    <RadioGroup
+        android:id="@+id/rdgAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edt_answer"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/rdOptionA"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvQuestion"
+            android:text="Option A" />
+
+        <RadioButton
+            android:id="@+id/rdOptionB"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rdOptionA"
+            android:text="Option B" />
+
+        <RadioButton
+            android:id="@+id/rdOptionC"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rdOptionB"
+            android:text="Option C" />
+
+        <RadioButton
+            android:id="@+id/rdOptionD"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Option D" />
+
+        <RadioButton
+            android:id="@+id/rdOptionE"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rdOptionD"
+            android:text="Option E" />
+
+        <RadioButton
+            android:id="@+id/rdOptionF"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rdOptionE"
+            android:text="Option F" />
+
+        <RadioButton
+            android:id="@+id/rdOptionG"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rdOptionF"
+            android:text="Option G" />
+
+        <RadioButton
+            android:id="@+id/rdOptionH"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rdOptionG"
+            android:text="Option H" />
+
+        <RadioButton
+            android:id="@+id/rdOptionI"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rdOptionH"
+            android:text="Option I" />
+
+    </RadioGroup>
+
+    <GridLayout
+        android:id="@+id/grdChk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_answer"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/chk_optA"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option A" />
+
+        <CheckBox
+            android:id="@+id/chk_optB"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option B" />
+
+        <CheckBox
+            android:id="@+id/chk_optC"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option C" />
+
+        <CheckBox
+            android:id="@+id/chk_optD"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option D" />
+
+        <CheckBox
+            android:id="@+id/chk_optE"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option E" />
+
+        <CheckBox
+            android:id="@+id/chk_optF"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option F" />
+
+        <CheckBox
+            android:id="@+id/chk_optG"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option G" />
+
+        <CheckBox
+            android:id="@+id/chk_optH"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option H" />
+
+        <CheckBox
+            android:id="@+id/chk_optI"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option I" />
+
+        <TextView
+            android:id="@+id/tv_done"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="done" />
+    </GridLayout>
+
+
+    <EditText
+        android:id="@+id/edt_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/tvQuestion"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:minWidth="@dimen/btn_minwidth"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMark"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_weight="1"
+            android:background="@drawable/btn_next"
+            android:text="@string/Mark"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/OptionTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_black"
+            android:text="@string/submit_survey"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
